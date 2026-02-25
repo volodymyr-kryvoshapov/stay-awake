@@ -2,6 +2,16 @@
 
 Lightweight menu bar app that prevents your Mac from sleeping or displaying the screensaver.
 
+## Download (recommended)
+
+[Download Stay Awake.dmg](https://github.com/volodymyr-kryvoshapov/stay-awake/blob/main/dist/Stay%20Awake.dmg)
+
+1. Download the DMG
+2. Open the DMG (double-click)
+3. Drag "Stay Awake" to the Applications folder
+4. Launch from Applications or Spotlight (⌘ Space)
+5. Grant Accessibility permission when prompted
+
 ## How It Works
 
 Stay Awake uses two complementary mechanisms to keep your Mac awake:
@@ -23,7 +33,7 @@ The app starts **enabled by default** when launched, showing a ☀️ icon in th
 - macOS 13+ recommended
 - Python 3.9+ (Homebrew Python preferred)
 
-## Install and run (first time)
+## Build from source (optional)
 
 1. Install Python (Homebrew recommended):
 
@@ -39,18 +49,6 @@ make run
 
 This creates a virtual environment, installs dependencies, and starts the app.
 
-## Run later
-
-```sh
-make run
-```
-
-## Quick start
-
-```sh
-make run
-```
-
 ## Build .app bundle
 
 ```sh
@@ -59,7 +57,7 @@ make build
 
 This creates a DMG installer at `dist/Stay Awake.dmg` containing the macOS app bundle.
 
-## Installation from DMG
+## Install from local DMG (if you built it)
 
 1. Download `Stay Awake.dmg`
 2. Open the DMG (double-click)
