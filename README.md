@@ -4,7 +4,7 @@ Lightweight menu bar app that prevents your Mac from sleeping or displaying the 
 
 ## Download (recommended)
 
-[Download Stay Awake.dmg](https://github.com/volodymyr-kryvoshapov/stay-awake/blob/main/dist/Stay%20Awake.dmg)
+[Download Stay Awake.dmg](https://github.com/volodymyr-kryvoshapov/stay-awake/raw/main/dist/Stay%20Awake.dmg)
 
 1. Download the DMG
 2. Open the DMG (double-click)
