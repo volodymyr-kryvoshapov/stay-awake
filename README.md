@@ -12,6 +12,10 @@ Lightweight menu bar app that prevents your Mac from sleeping or displaying the 
 4. Launch from Applications or Spotlight (⌘ Space)
 5. Grant Accessibility permission when prompted
 
+**Note:** If you see a security warning:
+- Right-click the app → "Open" → "Open" again in the dialog
+- Or go to System Settings → Privacy & Security → "Open Anyway"
+
 ## How It Works
 
 Stay Awake uses two complementary mechanisms to keep your Mac awake:
